@@ -1,0 +1,14 @@
+.navbar-transparent li:not(.btn):not(.dropdown-submenu) > ul.dropdown-menu:before {
+  position: absolute;
+  z-index: -5;
+  bottom: 98%;
+  left: 20px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  content: '';
+  transform: rotate(-45deg) translateY(1rem);
+  border-radius: .2rem;
+  background: #fff;
+  box-shadow: none;
+}

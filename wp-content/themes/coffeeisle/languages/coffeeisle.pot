@@ -1,0 +1,190 @@
+# Copyright (C) 2017 Stefan Cotitosu
+# This file is distributed under the same license as the Coffeeisle package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Coffeeisle 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/stefan-cotitosu/coffeeisle/issues\n"
+"POT-Creation-Date: 2017-08-21 11:34:19+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Stefan <stefan@themeisle.com>\n"
+"Language-Team: Stefan <stefan@themeisle.com>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: functions.php:737
+msgid "Top&amp;bottom padding for the branding. Default: 300px"
+msgstr ""
+
+#: functions.php:752
+msgid "Entry background"
+msgstr ""
+
+#: functions.php:772
+msgid "Secondary color"
+msgstr ""
+
+#: functions.php:1004
+msgid "Keep Reading &rarr;"
+msgstr ""
+
+#: functions.php:1017
+msgid "Continue reading &hellip;"
+msgstr ""
+
+#: functions.php:1134
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: functions.php:1149
+msgid "Coffeeisle Shop Theme"
+msgstr ""
+
+#: functions.php:1151
+msgid "© Copyright 2017"
+msgstr ""
+
+#: functions.php:1153
+msgid "All Rights Reserved."
+msgstr ""
+
+#: functions.php:1173
+msgid "Posts navigation"
+msgstr ""
+
+#: functions.php:1181
+msgid "Prev"
+msgstr ""
+
+#: functions.php:1182
+msgid "Next"
+msgstr ""
+
+#: functions.php:1223
+msgid "Leave us a Message"
+msgstr ""
+
+#: functions.php:1228
+msgid "Submit"
+msgstr ""
+
+#: functions.php:1232
+msgid "Name"
+msgstr ""
+
+#: functions.php:1236
+msgid "Email"
+msgstr ""
+
+#: functions.php:1240
+msgid "Subject"
+msgstr ""
+
+#: functions.php:1246
+msgid "Comment"
+msgstr ""
+
+#: functions.php:1305
+msgid "Comments"
+msgstr ""
+
+#: functions.php:1350
+msgid "Single Sidebar"
+msgstr ""
+
+#: template-parts/content-big.php:45
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-offer-product.php:25
+msgid "Special Offer"
+msgstr ""
+
+#: woocommerce_template/functions.php:212
+msgid "Featured products"
+msgstr ""
+
+#: woocommerce_template/functions.php:227
+msgid "Products first category"
+msgstr ""
+
+#: woocommerce_template/functions.php:244
+msgid "Number of products from first category"
+msgstr ""
+
+#: woocommerce_template/functions.php:263
+msgid "Offer product category"
+msgstr ""
+
+#: woocommerce_template/functions.php:279
+msgid "Products second category"
+msgstr ""
+
+#: woocommerce_template/functions.php:296
+msgid "Number of products from second category"
+msgstr ""
+
+#: woocommerce_template/functions.php:315
+msgid "Products third category"
+msgstr ""
+
+#: woocommerce_template/functions.php:332
+msgid "Number of products from third category"
+msgstr ""
+
+#: woocommerce_template/functions.php:352
+msgid "Hide Blog section on Alt Template Shop"
+msgstr ""
+
+#: woocommerce_template/functions.php:370
+msgid "Select category"
+msgstr ""
+
+#: woocommerce_template/functions.php:389
+msgid "None"
+msgstr ""
+
+#: woocommerce_template/template-shop.php:73
+msgid "Please install WooCommerce plugin"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Coffeeisle"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"CoffeeIsle is a classy WordPress theme for online shops and blogging. It "
+"has a beautiful, unique interface providing a full-width parallax header, "
+"oblique post shapes, and a slide-out menu. The store section follows the "
+"same design lines, each product being displayed in a nice oblique form. The "
+"theme was built with e-commerce (WooCommerce) in mind, that's why it comes "
+"with an alternative shop page which you can use on your site in case you "
+"like it better than the default template. As for the features, CoffeeIsle "
+"is responsive, WPML ready, SEO friendly, and easy to customize. It also has "
+"social icons, custom fonts, video post format, and multiple color schemes: "
+"you can use 3 different colors at the same time to create beautiful "
+"contrasts - background, post/product boxes, and the oblique line under each "
+"entry in the shop and blog pages."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Stefan Cotitosu"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Alt Shop Template"
+msgstr ""

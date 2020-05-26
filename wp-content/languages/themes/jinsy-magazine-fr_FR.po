@@ -1,0 +1,50 @@
+# Translation of Themes - Jinsy Magazine in French (France)
+# This file is distributed under the same license as the Themes - Jinsy Magazine package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-22 15:53:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Jinsy Magazine\n"
+
+#. Description of the theme
+#: functions.php:285
+msgid "Jinsy Magazine is a multipurpose WordPress theme built on Argon design. The theme is fully responsive and provides a ton of customization options that give you the flexibility you need for a unique brand. To keep pace with the latest technology, Jinsy Magazine is fully compatible with the popular Elementor and Gutenberg page builders, and will work seamlessly if you plan to use it for Ecommerce. The theme was created on a single-page layout and comes with elegant parallax scrolling. The blog page has a grid system and lets you set from 1 to 4 columns with articles, also multiple articles from the same category can be set as featured posts. Jinsy Magazine is an optimal choice for startups, small businesses, agencies, magazines, news sites, and online shops. Overall, a friendly and modern theme providing custom sections and typography, catchy animations, call-to-action forms, and a lightweight interface. Moreover, it was built with SEO in mind."
+msgstr "Jinsy Magazine est un thème WordPress polyvalent construit sur le design d'Argon. Le thème est entièrement réactif et fournit une tonne d'options de personnalisation qui vous donnent la flexibilité dont vous avez besoin pour une marque unique. Pour garder le rythme avec les dernières technologies, Jinsy Magazine est entièrement compatible avec les constructeurs de pages populaires Elementor et Gutenberg, et fonctionnera de façon transparente si vous envisagez de l'utiliser pour le commerce électronique. Le thème a été créé sur une mise en page unique et est livré avec un défilement de parallaxe élégant. La page de blog a un système de grille et vous permet de définir de 1 à 4 colonnes avec des articles, ainsi plusieurs articles de la même catégorie peuvent être définis comme des articles mis en avant. Jinsy Magazine est un choix optimal pour les startups, les petites entreprises, les agences, les magazines, les sites de nouvelles et les boutiques en ligne. Dans l'ensemble, un thème convivial et moderne fournissant des sections personnalisées et de la typographie, des animations accrocheuses, des formulaires d'appel à l'action et une interface légère. En outre, il a été construit avec le SEO à l'esprit."
+
+#. Theme Name of the theme
+msgid "Jinsy Magazine"
+msgstr "Jinsy Magazine"
+
+#: inc/magazine-layout.php:40
+msgid "Hide Blog Title"
+msgstr "Masquer le titre du blog"
+
+#: inc/magazine-layout.php:30
+msgid "Enable Magazine Layout"
+msgstr "Activer la mise en page magazine"
+
+#. translators: s - theme name
+#: functions.php:281
+msgid "Welcome to %s! - Version "
+msgstr "Bienvenue dans %s ! - Version "
+
+#: functions.php:272 functions.php:276
+msgid "About Jinsy Magazine"
+msgstr "À propos de Jinsy Magazine"
+
+#. Author URI of the theme
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Author of the theme
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Theme URI of the theme
+msgid "https://themeisle.com/themes/jinsy-magazine/"
+msgstr "https://themeisle.com/themes/jinsy-magazine/"

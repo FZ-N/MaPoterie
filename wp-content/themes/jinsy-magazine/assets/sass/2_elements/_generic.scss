@@ -1,0 +1,20 @@
+/* Square social icons on single post page instead of round icons */
+.single-post .btn.btn-just-icon,
+.single-post .btn.btn-just-icon.btn-round {
+  border-radius: 5px;
+
+  i {
+    font-size: 14px;
+  }
+}
+
+.hestia-title,
+.info-title,
+.card-title,
+.card-title a,
+.hestia-subscribe .title,
+.woocommerce.single-product .product_title,
+.woocommerce .related.products h2,
+.woocommerce .comment-reply-title {
+  font-weight: 500;
+}

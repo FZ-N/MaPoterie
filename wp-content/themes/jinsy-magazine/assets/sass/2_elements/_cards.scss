@@ -1,0 +1,79 @@
+/* Front page products image */
+.hestia-shop .shop-item .card-product.card-boxed .card-image,
+.hestia-shop .shop-item:hover > .card-product.card-boxed.card-hover-style-pop-and-glow .card-image {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+/* Front page portfolio items */
+.hestia-work .portfolio-item .card-raised {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+/* Front page team avatar */
+.hestia-team .card-image {
+  box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+}
+
+/* Front page packages section, first card */
+.hestia-pricing .hestia-table-one .card-pricing.card-raised {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+/* Front page testimonials avatar */
+.hestia-testimonials .card.card-testimonial.card-plain .card-avatar img {
+  box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+}
+
+/* Front page blog image */
+.hestia-blogs .hestia-blog-item .card-plain.card-blog .card-image {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+/* Front page contact form header */
+.hestia-contact .card.card-contact .header-raised {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+/* Blog featured posts */
+.blog .hestia-blog-featured-posts .hestia-blog-featured-card .card.card-raised {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+/* Blog featured post */
+.blog .blog-posts-wrap .card.card-blog.card-raised.sticky {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+/* Blog posts images */
+.blog .blog-posts-wrap .card.card-blog.card-plain .card-image,
+.blog .blog-posts-wrap .card-blog.card-plain .card-image {
+  box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+}
+
+/* Single Post related posts */
+.single-post .related-posts .card.card-blog .card-image {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+/* Single Post comments avatar */
+.single-post #comments .comment-author.avatar,
+.single-post #comments .comment-author.avatar img {
+  box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+}
+
+/* Shop card image */
+.woocommerce-page.archive .card.card-product.card-boxed .card-image {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+/* Product related products and upsells */
+.single-product .up-sells.upsells .card.card-product.card-boxed .card-image,
+.single-product .related.products .card.card-product.card-boxed .card-image {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+/* Cart cart-totals */
+.woocommerce-cart .cart_totals .card.card-raised,
+.woocommerce-cart .cross-sells .card.card-product.card-boxed .card-image {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}

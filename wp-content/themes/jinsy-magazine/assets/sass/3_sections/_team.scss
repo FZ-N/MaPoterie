@@ -1,0 +1,32 @@
+// Buttons
+$social-networks: 'facebook' 'twitter' 'pinterest' 'google' 'linkedin' 'dribbble' 'github' 'youtube' 'instagram' 'reddit' 'tumblr' 'behance' 'snapchat' 'deviantart' 'vimeo';
+$social-networks-colors: #3b5998 #55acee #cc2127 #dd4b39 #0976b4 #ea4c89 #333 #e52d27 #125688 #ff4500 #35465c #1769ff #fffc00 #05cc47 #1ab7ea;
+$social-networks-icons: '\f09a' '\f099' '\f231' '\f1a0' '\f0e1' '\f17d' '\f09b' '\f167' '\f16d' '\f281' '\f173' '\f1b4' '\f2ac' '\f1bd' '\f27d';
+
+// Team section - Social Icons
+@mixin footer-buttons-social-icon($network,$color) {
+  .hestia-team .footer a[href*="#{$network}.com"] {
+    color: #ffffff;
+    background-color: $color;
+    border-radius: 50%;
+    margin-right: 5px;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+
+    i.fa {
+      font-size: 14px;
+    }
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08)
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  // Generate for each social network specific buttons code
+  @each $current-social in $social-networks {
+    $i: index($social-networks, $current-social);
+    @include footer-buttons-social-icon($current-social,nth($social-networks-colors,$i));
+  }
+}

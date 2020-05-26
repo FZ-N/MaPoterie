@@ -1,0 +1,199 @@
+/*
+Plugin Name:Woo Quick Order Table View
+Description:Woocommerce Products shows on responsive table with ajax add to cart,view checkout page button,ordering,pagination,lightbox,add to cart,price.For more option please buy <a class="pro" target="_blank" href="http://amp-templates.com/quick-order-demo/">Pro</a>
+Version: 2.1
+Author: Abu Rayhan
+Author URI: http://amp-templates.com/
+*/
+
+
+@media all {
+    .lightbox {
+        display: none;
+    }
+    .fl-page h1,
+    .fl-page h3,
+    .fl-page h4 {
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+    .fl-page h1 {
+        font-size: 110px;
+        margin-bottom: 0.5em;
+    }
+    .fl-page h1 i {
+        font-style: normal;
+        color: #ddd;
+    }
+    .fl-page h1 span {
+        font-size: 30px;
+        color: #333;
+    }
+    .fl-page h3 {
+        text-align: right;
+    }
+    .fl-page h3 {
+        font-size: 15px;
+    }
+    .fl-page h4 {
+        font-size: 2em;
+    }
+    .fl-page .jumbotron {
+        margin-top: 2em;
+    }
+    .fl-page .doc {
+        margin: 2em 0;
+    }
+    .fl-page .btn-download {
+        float: right;
+    }
+    .fl-page .btn-default {
+        vertical-align: bottom;
+    }
+    .fl-page .btn-lg span {
+        font-size: 0.7em;
+    }
+    .fl-page .footer {
+        margin-top: 3em;
+        color: #aaa;
+        font-size: 0.9em;
+    }
+    .fl-page .footer a {
+        color: #999;
+        text-decoration: none;
+        margin-right: 0.75em;
+    }
+    .fl-page .github {
+        margin: 2em 0;
+    }
+    .fl-page .github a {
+        vertical-align: top;
+    }
+    .fl-page .marketing a {
+        color: #999;
+    }
+    /* override default feather style... */
+    
+    .fixwidth {
+        background: rgba(256, 256, 256, 0.8);
+    }
+    .fixwidth .featherlight-content {
+        width: 500px;
+        padding: 25px;
+        color: #fff;
+        background: #111;
+    }
+    .fixwidth .featherlight-close {
+        color: #fff;
+        background: #333;
+    }
+}
+
+
+.quantity {
+    float: left;
+    width: 40%;
+}
+
+table#example {
+  margin-top: 20px;
+  float: left;
+}
+
+.checkout-button.button.alt.wc-forward {
+    font-size: 11px;
+    padding: 2px 0px 5px 0px;
+    width: 52%;
+    float: right;
+    text-align: center;
+    margin-top: 0px;
+    background: black;
+    color: #fff;
+    height: 28px;
+}
+.input-text.qty.text {
+    padding: 3px 3px !important;
+    margin-left: 4px;
+    width: 90%;
+    height: 28px;
+}
+
+.single_add_to_cart_button {
+    padding: 3px 10px !important;
+    margin-left: 10px;
+    width: 32%;
+    height: 28px;
+}
+
+.fa.fa-cart-plus.fa-2x {
+    font-size: 20px;
+}
+
+
+@media only screen and (min-width:120px) and (max-width: 760px){
+table#example {
+  margin-top: 20px;
+  float: left;
+}
+
+.input-text.qty.text{
+  margin-bottom: 5px;
+}
+
+}
+
+@media only screen and (min-width:360px) and (max-width: 360px){
+table#example {
+  margin-top: 20px;
+  float: left;
+  margin-left:-27px;
+}
+
+}
+@media only screen and (min-width:375px) and (max-width: 375px){
+table#example {
+  margin-top: 20px;
+  float: left;
+}
+
+
+}
+
+@media only screen and (min-width:320px) and (max-width: 359px){
+
+table#example {
+  margin-top: 20px;
+  float: left;
+  margin-left:-38px;
+}
+
+}
+
+@media only screen and (min-width:120px) and (max-width: 767px){
+.checkout-button.button.alt.wc-forward {
+    font-size: 10px;
+    padding: 1px 0px 0 0px;
+    width: 60%;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 16px;
+}
+
+.single_add_to_cart_button {
+    padding: 5px 10px !important;
+    margin-left: 4px;
+    width: 53%;
+}
+
+}
+
+
+#example_length {
+    margin-top: 15px;
+}
+
+
+.checkout-button.button.alt.wc-forward {
+    display: none;
+}

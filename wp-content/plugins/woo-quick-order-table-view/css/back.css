@@ -1,0 +1,102 @@
+/*
+Plugin Name:Woo Quick Order Table View
+Description:Woocommerce Products shows on responsive table with ajax add to cart,view checkout page button,ordering,pagination,lightbox,add to cart,price.For more option please buy <a class="pro" target="_blank" href="http://amp-templates.com/quick-order-demo/">Pro</a>
+Version: 2.1
+Author: Abu Rayhan
+Author URI: http://amp-templates.com/
+*/
+
+.setting-form th {
+  width: 250px;
+  text-align: left;
+}
+
+.col-1 {
+	float: left;
+	width: 60px;
+}
+.col-1 input {
+	float: left;
+	width: 8px;
+	margin-top: 8px;
+	height: 8px;
+}
+
+.col-1 > div {
+	float: left;
+}
+
+.full_area {
+	width: 100%;
+	float: left;
+	margin-bottom: 35px;
+}
+
+.pro > h3 > a {
+	background: maroon;
+	max-width: 113px;
+	text-align: left;
+	color: #fff;
+	padding: 9px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+
+.pro {
+	background: #ddd;
+	padding: 9px;
+	border-radius: 6px;
+}
+
+.pro p {
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+}
+
+.pro ul {
+	padding-left: 20px;
+}
+
+.pro ul li {
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+	list-style: square;
+	line-height: 20px;
+}
+
+.pro ul li a {
+	color: maroon;
+	text-decoration: none;
+}
+
+.label_area label {
+	cursor: default;
+	font-size: 17px;
+	color: #000;
+	width: 25%;
+	float: left;
+	margin-top: 8px;
+}
+
+.setting-area{
+	margin-top: 60px;
+}
+
+.col-1.custom {
+	float: left;
+	width: 120px;
+}
+
+.custom-color {
+	width: 80px !important;
+	height: 38px !important;
+	float: left !important;
+	margin-top: -1px !important;
+}
+
+.input_area > input {
+	border-radius: 3px;
+	padding: 7px;
+}
